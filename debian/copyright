@@ -1,0 +1,12 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: carta
+Source: https://cartavis.github.io/o
+
+Files:     debian/*
+Copyright: 2018 Gijs Molenaar <gijs@pythonic.nl>
+License:   MIT
+
+
+Files:     *
+Copyright: Copyright (C) 2018-2019 ASIAA, IDIA, and NRAO
+License:   GPL3

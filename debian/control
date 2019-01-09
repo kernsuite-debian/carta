@@ -1,0 +1,19 @@
+Source: carta
+Section: science
+Priority: extra
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: https://cartavis.github.io/
+
+Package: carta
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Cube Analysis and Rendering Tool for Astronomy
+ A new image visualization and analysis tool designed for the ALMA, the VLA
+ and the SKA pathfinders. As the image size increases drastically with modern
+ telescopes in recent years, viewing a image with a local image viewer or with
+ a remote image viewer via the ssh protocol becomes less efficient. The mission
+ of CARTA is to provide usability and scalability for the future by utilizing
+ modern web technologies and computing parallelization.

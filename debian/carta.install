@@ -1,0 +1,7 @@
+carta usr/bin
+debian/logo/48x48/carta.png usr/share/icons/hicolor/48x48/apps
+debian/logo/128x128/carta.png usr/share/icons/hicolor/128x128/apps
+debian/logo/256x256/carta.png usr/share/icons/hicolor/256x256/apps
+debian/logo/512x512/carta.png usr/share/icons/hicolor/512x512/apps
+debian/carta.desktop usr/share/applications
+

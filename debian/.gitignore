@@ -1,0 +1,6 @@
+.debhelper/
+carta.debhelper.log
+carta.substvars
+carta/
+files
+
