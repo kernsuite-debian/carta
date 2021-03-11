@@ -6,23 +6,23 @@ how I make this package is:
 
 download the upstream appimage tarball:
 
- $ wget https://github.com/CARTAvis/carta-releases/releases/download/v1.3.1/CARTA-v1.3.1-ubuntu.tgz
+ $ wget https://github.com/CARTAvis/carta-releases/releases/download/v1.4/CARTA-v1.4-ubuntu.tgz
 
 make a folder for the debian source tarball:
 
- $ mkdir carta-1.3.1
+ $ mkdir carta-1.4
 
 extract appimage from upstream tarball:
 
- $ tar zxvf CARTA-v1.3.1-ubuntu.tgz
+ $ tar zxvf CARTA-v1.4-ubuntu.tgz
 
 move extracted appimage into debian source folder
 
- $ mv CARTA.AppImage carta-1.3.1/carta
+ $ mv CARTA.AppImage carta-1.4/carta
 
 $ make the source tarball
 
- $ tar Jcvf carta-1.3.1.tar.xz carta-1.3.1
+ $ tar Jcvf carta-1.4.tar.xz carta-1.4
 
 now you can use this to make the package, just extract and put the debian folder inside
 
